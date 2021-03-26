@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KRFC.FoodPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+            <Frame x:Name ="cardFrame" BackgroundColor= "LightGray" Padding="5" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="100" CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
+                    <SwipeGestureRecognizer Direction="Up" Swiped="OnSwiped"/>
+                </Frame.GestureRecognizers>
+                <Label x:Name="cardWord" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

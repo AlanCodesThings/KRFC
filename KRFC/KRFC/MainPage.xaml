@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KRFC.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Korean Flashcards" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Choose from one of the following categories to get started:" FontSize="Title" Padding="30,10,30,10" HorizontalOptions="Center"/>
+        <Button Text="Food" Clicked= "Button_Clicked"/>
+        <Button Text="Transportation"/>
+        <Button Text="Activities"/>
+        <Button Text="Places"/>
+    </StackLayout>
+
+
+</ContentPage>
