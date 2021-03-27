@@ -17,7 +17,7 @@ namespace KRFC
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new FoodPage());
+            await Navigation.PushAsync(new FoodLearn());
         }
     }
 }

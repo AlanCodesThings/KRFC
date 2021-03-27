@@ -12,20 +12,26 @@ namespace KRFC
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FoodPage : ContentPage
     {
-        Dictionary<string, KoreanWord> wordDict = new Dictionary<string, KoreanWord>();
+        static Dictionary<string, KoreanWord> wordDict = new Dictionary<string, KoreanWord>();
         static Random rnd = new Random();
         int i = 0;
+        static List<string> listFood = new List<string>();
         public FoodPage()
         {
             InitializeComponent();
+            
+            cardWord.Text = "Swipe LEFT for English, RIGHT for Korean" + "\n\n" + "and UP for a new card!";
+        }
+
+        static public List<string> getlistFood()
+        {
             wordDict.Add("Apple", new KoreanWord("사과", "sagwa"));
             wordDict.Add("Banana", new KoreanWord("바나나", "banana"));
             wordDict.Add("Potato", new KoreanWord("감자", "gamja"));
             wordDict.Add("Cabbage", new KoreanWord("양배추", "yangbaechu"));
             wordDict.Add("Mango", new KoreanWord("망고", "mang-go"));
-            cardWord.Text = "Swipe LEFT for English, RIGHT for Korean" + "\n\n" + "and UP for a new card!";
-
-
+            listFood = wordDict.Keys.ToList();
+            return listFood; 
         }
 
         void OnSwiped(object sender, SwipedEventArgs e)
