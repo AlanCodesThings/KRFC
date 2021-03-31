@@ -26,21 +26,26 @@ namespace KRFC
 
         static public List<string> getlistFood()
         {
-            wordDict.Add("Apple", new KoreanWord("사과", "sagwa"));
-            wordDict.Add("Banana", new KoreanWord("바나나", "banana"));
-            wordDict.Add("Potato", new KoreanWord("감자", "gamja"));
-            wordDict.Add("Cabbage", new KoreanWord("양배추", "yangbaechu"));
-            wordDict.Add("Mango", new KoreanWord("망고", "mang-go"));
+            if (wordDict.Count <= 0)
+            {
+                wordDict.Add("Apple", new KoreanWord("사과", "sagwa"));
+                wordDict.Add("Banana", new KoreanWord("바나나", "banana"));
+                wordDict.Add("Potato", new KoreanWord("감자", "gamja"));
+                wordDict.Add("Cabbage", new KoreanWord("양배추", "yangbaechu"));
+                wordDict.Add("Mango", new KoreanWord("망고", "mang-go"));
+            }
             listFood = wordDict.Keys.ToList();
             return listFood; 
         }
         static public List<string> getlistkorFood()
         {
-
-            foreach (KeyValuePair<string, KoreanWord> entry in wordDict)
+            if (listkorFood.Count <= 0)
+            {
+                foreach (KeyValuePair<string, KoreanWord> entry in wordDict)
                 {
-                listkorFood.Add(entry.Value.getKoreanWord() + "  " + entry.Value.getEnglishSound()); 
+                    listkorFood.Add(entry.Value.getKoreanWord() + "  " + entry.Value.getEnglishSound());
                 }
+             }
             return listkorFood;
         }
 
