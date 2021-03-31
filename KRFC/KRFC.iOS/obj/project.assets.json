@@ -11,6 +11,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -155,6 +166,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -176,6 +188,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -320,6 +343,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -341,6 +365,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -485,6 +520,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -506,6 +542,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -650,6 +697,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -708,6 +756,50 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+      "sha512": "QzfFZhmebaNBdQ0o2XcMLKKUsdxYpIZd50qOUuuls1zIj2ixudS3QoYOp9v27Fwa0CL1e9jEeAMgyBH7Qpimlw==",
+      "type": "package",
+      "path": "xam.plugin.simpleaudioplayer/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll.mdb",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/net45/Plugin.SimpleAudioPlayer.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
+        "xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+        "xam.plugin.simpleaudioplayer.nuspec"
       ]
     },
     "Xamarin.Essentials/1.6.1": {
@@ -986,29 +1078,30 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "KRFC >= 1.0.0",
+      "Xam.Plugin.SimpleAudioPlayer >= 1.4.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chris\\.nuget\\packages\\": {},
+    "C:\\Users\\Alan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
       "projectName": "KRFC.iOS",
-      "projectPath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
-      "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
+      "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1022,8 +1115,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {
-              "projectPath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj"
+            "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {
+              "projectPath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj"
             }
           }
         }
@@ -1032,6 +1125,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Xam.Plugin.SimpleAudioPlayer": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"

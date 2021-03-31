@@ -17,6 +17,8 @@ namespace KRFC
         int i = 0;
         static List<string> listFood = new List<string>();
         static List<string> listkorFood = new List<string>();
+        Plugin.SimpleAudioPlayer.ISimpleAudioPlayer player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+
         public FoodPage()
         {
             InitializeComponent();
@@ -74,7 +76,8 @@ namespace KRFC
                     cardWord.Text = currentWord.Key;
                     break;
                 case SwipeDirection.Down:
-                    cardWord.Text = "Down";
+                    player.Load(currentWord.Key.ToLower()+ ".mp3");
+                    player.Play();
                     break;
             }
         }

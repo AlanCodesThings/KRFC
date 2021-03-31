@@ -9,6 +9,7 @@
                     <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
                     <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
                     <SwipeGestureRecognizer Direction="Up" Swiped="OnSwiped"/>
+                    <SwipeGestureRecognizer Direction="Down" Swiped="OnSwiped"/>
                 </Frame.GestureRecognizers>
                 <Label x:Name="cardWord" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
             </Frame>
