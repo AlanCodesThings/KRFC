@@ -31,5 +31,9 @@ namespace KRFC
             createfoodView();
             
         }
+        async private void Button_Clicked2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FoodPage());
+        }
     }
 }
