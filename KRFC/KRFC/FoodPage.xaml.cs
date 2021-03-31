@@ -16,6 +16,7 @@ namespace KRFC
         static Random rnd = new Random();
         int i = 0;
         static List<string> listFood = new List<string>();
+        static List<string> listkorFood = new List<string>();
         public FoodPage()
         {
             InitializeComponent();
@@ -33,8 +34,18 @@ namespace KRFC
             listFood = wordDict.Keys.ToList();
             return listFood; 
         }
+        static public List<string> getlistkorFood()
+        {
 
-        void OnSwiped(object sender, SwipedEventArgs e)
+            foreach (KeyValuePair<string, KoreanWord> entry in wordDict)
+                {
+                listkorFood.Add(entry.Value.getKoreanWord() + "  " + entry.Value.getEnglishSound()); 
+                }
+            return listkorFood;
+        }
+
+
+            void OnSwiped(object sender, SwipedEventArgs e)
         {
             var currentWord = wordDict.ElementAt(i);
 

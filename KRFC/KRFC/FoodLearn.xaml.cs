@@ -21,6 +21,9 @@ namespace KRFC
             
             ObservableCollection<string> food = new ObservableCollection<string>(FoodPage.getlistFood());
             foodlistView.ItemsSource = food;
+
+            ObservableCollection<string> korfood = new ObservableCollection<string>(FoodPage.getlistkorFood());
+            korlistView.ItemsSource = korfood;
         }
         protected override void OnAppearing()
         {
