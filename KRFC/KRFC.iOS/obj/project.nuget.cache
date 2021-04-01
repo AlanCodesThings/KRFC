@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e4qnDC/XnAo+nj/1C9x1xGwqsTd6VsgVT6oMPAupCGpMvTIRzxoefWVm2BJXUe5GYshtjvZDO9TXQectbYBJSQ==",
+  "dgSpecHash": "2/FWd5mIW0B4bfhkLr+kGnYMO0RSbAZAcQ1epJnXrzg+/Li09ih3kLUwhHExd1bY3Odzo7eRc9i61+4fGUCYMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC.iOS\\KRFC.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Alan\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

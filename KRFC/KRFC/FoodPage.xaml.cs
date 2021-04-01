@@ -113,6 +113,13 @@ namespace KRFC
                     break;
             }
         }
+                void OnImageButtonClicked(object sender, EventArgs e)
+                {
+                    var currentWord = wordDict.ElementAt(i); 
+                    player.Load(currentWord.Key.ToLower() + ".mp3");
+                    player.Play();
+                    Console.WriteLine("hello");
+                }
 
 
     }
