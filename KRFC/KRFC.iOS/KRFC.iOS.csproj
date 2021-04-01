@@ -138,5 +138,25 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\apple.mp3" />
+    <BundleResource Include="Resources\sound-waves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\banana.mp3" />
+    <Content Include="Resources\bicycle.mp3" />
+    <Content Include="Resources\cabbage.mp3" />
+    <Content Include="Resources\car.mp3" />
+    <Content Include="Resources\cup.mp3" />
+    <Content Include="Resources\good morning.mp3" />
+    <Content Include="Resources\good night.mp3" />
+    <Content Include="Resources\hello.mp3" />
+    <BundleResource Include="Resources\mango.mp3" />
+    <BundleResource Include="Resources\park.mp3" />
+    <BundleResource Include="Resources\pencil.mp3" />
+    <BundleResource Include="Resources\potato.mp3" />
+    <BundleResource Include="Resources\restaurant.mp3" />
+    <BundleResource Include="Resources\school.mp3" />
+    <BundleResource Include="Resources\shirt.mp3" />
+    <BundleResource Include="Resources\train.mp3" />
+    <BundleResource Include="Resources\volume.png" />
   </ItemGroup>
 </Project>

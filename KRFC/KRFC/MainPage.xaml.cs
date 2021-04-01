@@ -30,8 +30,8 @@ namespace KRFC
                 case "transButton":
                     category = "transportation";
                     break;
-                case "actButton":
-                    category = "actions";
+                case "objButton":
+                    category = "objects";
                     break;
                 case "placeButton":
                     category = "places";

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {}
+    "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {
+    "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj",
+        "projectUniqueName": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj",
         "projectName": "KRFC",
-        "projectPath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj",
-        "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chris\\Documents\\KRFC\\KRFC\\KRFC\\obj\\",
+        "projectPath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\KRFC.csproj",
+        "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alan\\Documents\\KRFC\\KRFC\\KRFC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

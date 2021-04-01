@@ -44,15 +44,15 @@ namespace KRFC
                         wordDict.Add("Car", new KoreanWord("자동차", "jadongcha"));
                         wordDict.Add("Train", new KoreanWord("기차", "gicha"));
                         break;
-                    case "actions":
-                        wordDict.Add("Eat", new KoreanWord("먹다", "meogda"));
-                        wordDict.Add("Laugh", new KoreanWord("웃다", "usda"));
-                        wordDict.Add("Fight", new KoreanWord("싸우다", "ssauda"));
+                    case "objects":
+                        wordDict.Add("Pencil", new KoreanWord("연필", "yeonpil"));
+                        wordDict.Add("Shirt", new KoreanWord("셔츠", "syeocheu"));
+                        wordDict.Add("Cup", new KoreanWord("컵", "keob"));
                         break;
                     case "places":
                         wordDict.Add("Restaurant", new KoreanWord("레스토랑", "leseutolang"));
-                        wordDict.Add("Beach", new KoreanWord("바닷가", "badasga"));
-                        wordDict.Add("Home", new KoreanWord("집", "jib"));
+                        wordDict.Add("Park", new KoreanWord("공원", "gong-won"));
+                        wordDict.Add("School", new KoreanWord("학교", "haggyo"));
                         break;
                     case "greetings":
                         wordDict.Add("Hello", new KoreanWord("안녕하세요", "annyeonghaseyo"));

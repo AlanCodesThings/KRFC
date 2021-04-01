@@ -10,7 +10,7 @@
         <Label Text="Choose from one of the following categories to get started:" FontSize="Title" Padding="30,10,30,10" HorizontalOptions="Center"/>
         <Button ClassId ="foodButton" Text="Food" Clicked= "Button_Clicked"/>
         <Button ClassId ="transButton" Text="Transportation" Clicked="Button_Clicked"/>
-        <Button ClassId ="actButton" Text="Actions"  Clicked="Button_Clicked"/>
+        <Button ClassId ="objButton" Text="Common Objects"  Clicked="Button_Clicked"/>
         <Button ClassId ="placeButton" Text="Places" Clicked="Button_Clicked"/>
         <Button ClassId ="greetButton" Text="Everyday Greetings" Clicked="Button_Clicked"/>
     </StackLayout>
