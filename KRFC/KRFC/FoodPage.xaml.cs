@@ -28,13 +28,38 @@ namespace KRFC
 
         static public List<string> getlistFood()
         {
-            if (wordDict.Count <= 0)
+            if(wordDict.Count <= 0)
             {
-                wordDict.Add("Apple", new KoreanWord("사과", "sagwa"));
-                wordDict.Add("Banana", new KoreanWord("바나나", "banana"));
-                wordDict.Add("Potato", new KoreanWord("감자", "gamja"));
-                wordDict.Add("Cabbage", new KoreanWord("양배추", "yangbaechu"));
-                wordDict.Add("Mango", new KoreanWord("망고", "mang-go"));
+                switch (MainPage.getCategory())
+                {
+                    case "food":
+                        wordDict.Add("Apple", new KoreanWord("사과", "sagwa"));
+                        wordDict.Add("Banana", new KoreanWord("바나나", "banana"));
+                        wordDict.Add("Potato", new KoreanWord("감자", "gamja"));
+                        wordDict.Add("Cabbage", new KoreanWord("양배추", "yangbaechu"));
+                        wordDict.Add("Mango", new KoreanWord("망고", "mang-go"));
+                        break;
+                    case "transportation":
+                        wordDict.Add("Bicycle", new KoreanWord("자전거", "jajeongeo"));
+                        wordDict.Add("Car", new KoreanWord("자동차", "jadongcha"));
+                        wordDict.Add("Train", new KoreanWord("기차", "gicha"));
+                        break;
+                    case "actions":
+                        wordDict.Add("Eat", new KoreanWord("먹다", "meogda"));
+                        wordDict.Add("Laugh", new KoreanWord("웃다", "usda"));
+                        wordDict.Add("Fight", new KoreanWord("싸우다", "ssauda"));
+                        break;
+                    case "places":
+                        wordDict.Add("Restaurant", new KoreanWord("레스토랑", "leseutolang"));
+                        wordDict.Add("Beach", new KoreanWord("바닷가", "badasga"));
+                        wordDict.Add("Home", new KoreanWord("집", "jib"));
+                        break;
+                    case "greetings":
+                        wordDict.Add("Hello", new KoreanWord("안녕하세요", "annyeonghaseyo"));
+                        wordDict.Add("Good Morning", new KoreanWord("좋은 아침", "joh-eun achim"));
+                        wordDict.Add("Good Night", new KoreanWord("안녕히 주무세요", "annyeonghi jumuseyo"));
+                        break;
+                }
             }
             listFood = wordDict.Keys.ToList();
             return listFood; 
@@ -49,6 +74,13 @@ namespace KRFC
                 }
              }
             return listkorFood;
+        }
+
+        static public void emptyLists()
+        {
+            listFood.Clear();
+            listkorFood.Clear();
+            wordDict.Clear();
         }
 
 

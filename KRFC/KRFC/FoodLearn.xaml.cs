@@ -28,6 +28,7 @@ namespace KRFC
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            FoodPage.emptyLists();
             createfoodView();
             
         }
