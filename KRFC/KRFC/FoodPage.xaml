@@ -13,7 +13,7 @@
                 </Frame.GestureRecognizers>
                 <Label x:Name="cardWord" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
             </Frame>
-            <ImageButton Source="volume.png" BackgroundColor="Transparent" HorizontalOptions="End" VerticalOptions="End" HeightRequest="50" WidthRequest="120" Padding="5" Clicked="OnImageButtonClicked"/>
+            <ImageButton x:Name="soundButton" IsEnabled="False" BackgroundColor="Transparent" HorizontalOptions="End" VerticalOptions="End" HeightRequest="50" WidthRequest="120" Padding="5" Clicked="OnImageButtonClicked"/>
 
         </StackLayout>
     </ContentPage.Content>

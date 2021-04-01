@@ -23,7 +23,7 @@ namespace KRFC
         {
             InitializeComponent();
             
-            cardWord.Text = "Swipe LEFT for English, RIGHT for Korean" + "\n\n" + "and UP for a new card!";
+            cardWord.Text = "Swipe LEFT for Korean, RIGHT for English" + "\n\n" + "and UP for a new card!";
         }
 
         static public List<string> getlistFood()
@@ -82,7 +82,7 @@ namespace KRFC
             listkorFood.Clear();
             wordDict.Clear();
         }
-
+        
 
             void OnSwiped(object sender, SwipedEventArgs e)
         {
@@ -92,12 +92,18 @@ namespace KRFC
             {
 
                 case SwipeDirection.Left:
-                    cardWord.Text = currentWord.Key;
+                    soundButton.IsEnabled = true;
+                    cardWord.Text = currentWord.Value.getKoreanWord() + "\n" + currentWord.Value.getEnglishSound();
+                    soundButton.Source = "volume.png";
                     break;
                 case SwipeDirection.Right:
-                    cardWord.Text = currentWord.Value.getKoreanWord() + "\n" + currentWord.Value.getEnglishSound();
+                    soundButton.IsEnabled = false;
+                    soundButton.Source = null;
+                    cardWord.Text = currentWord.Key;
                     break;
                 case SwipeDirection.Up:
+                    soundButton.IsEnabled = false;
+                    soundButton.Source = null;
                     i++;
                     if (i >= wordDict.Count)
                     {
@@ -108,8 +114,6 @@ namespace KRFC
                     cardWord.Text = currentWord.Key;
                     break;
                 case SwipeDirection.Down:
-                    player.Load(currentWord.Key.ToLower()+ ".mp3");
-                    player.Play();
                     break;
             }
         }
